@@ -22,3 +22,9 @@ Once you grant permission to Netlify, you can see a list of all your repositorie
 
 ## step05: Configure your settings 
 After selecting your website, you will be prompted to configure the settings for deploying the website. Since your website is simply a static one, there's not much to do here. Just click Deploy site to continue.
+## Step 6: Publish your website
+Your website is now ready to publish! Netlify will do the rest of the work for you, and it will only take a minute or so to complete the process.
+
+Now you are done! Your new website is published, and you can view it by clicking the green link.
+
+Right now, your URL looks random, but you can edit it by clicking the Site settings button and then the Change site name button.
