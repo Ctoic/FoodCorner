@@ -16,23 +16,23 @@ User Authentication (Frontend): Basic login and sign-up forms for users to acces
 Cart Functionality: Users can add or remove items from the cart and view the total cost.
 Deals Page: Displays current offers and discounts.
 ## How to Deploy the Website on Netlify
-Step 1: Add Your New Site from GitHub
+- Step 1: Add Your New Site from GitHub
 Sign in or sign up for a free account on Netlify.
 In the dashboard, click New site from Git.
 Connect your GitHub account to Netlify.
-Step 2: Connect to Your GitHub Account
+- Step 2: Connect to Your GitHub Account
 Once redirected, authorize Netlify to access your GitHub repositories.
 Make sure your restaurant website's repository is pushed to GitHub.
-Step 3: Authorize Netlify
+- Step 3: Authorize Netlify
 After connecting GitHub, authorize Netlify to deploy your website.
 You'll be able to see a list of your GitHub repositories.
-Step 4: Select Your Repository
+- Step 4: Select Your Repository
 Find and select your restaurant website repository from the list.
 Use the search bar if needed to find it quickly.
-Step 5: Configure Deployment Settings
+- Step 5: Configure Deployment Settings
 Since this is a static website, there are minimal configurations required.
 Simply click Deploy site to begin the deployment process.
-Step 6: Publish Your Website
+- Step 6: Publish Your Website
 Netlify will automatically build and publish your site.
 Once the process completes, click the green link to view your live website!
 Optional: Customize the URL
