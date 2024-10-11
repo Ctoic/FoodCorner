@@ -1,31 +1,39 @@
-# Clik to see the above foodwebsite=> https://ctoicfood.netlify.app/
-# Deploying A Web Page On Netlify 
-Netlify is a remote-first cloud computing company that offers a development platform that includes build, deploy,
-and serverless backend services for web applications and dynamic websites.
-Netlify is a platform for hosting websites. It is easy to host sites on Netlify as you don't need to configure 
-it manually – and best of all, it's free. If you haven't signed up for an account, now is a good time to do so.
-Goto: www.netlify.com
+# Restaurant Website Frontend
+Welcome to the restaurant website frontend! This is a simple static website built with HTML, JavaScript, CSS, and Bootstrap. It showcases the following sections:
 
-## Step1: Add your newsite through Github
-Once you've logged in, it will take you to a home dashboard. Click the New site from git button to add your new website to Netlify.
-Now you are inside netlify get the source code from your github account 
+- Home
+- Menu
+- Deals
+- Payments
+- Login and Sign Up
+- Cart
+This website is designed to provide users with a seamless and responsive experience.
 
-## step02: Connect to your Github account 
-When you click the New site from git button, it will take you to the "Create a new site" page. 
-Make sure that you push your repository on GitHub so that Netlify can link to your GitHub account.
-You have to authenciate from github account and after verification you will be redirected to netlify.
-
-## step03: Authorize Netlify 
-Now you have to authorize both netlify and Github to work together. The code from github will be diployed on internet and your webpages can be seen anywhere in the word with a unique sitename you write.
-
-## step04: Select your Repository from Github 
-Once you grant permission to Netlify, you can see a list of all your repositories. Select your website to publish. You can find it by either scrolling down the list or using the search bar to narrow down the list.
-
-## step05: Configure your settings 
-After selecting your website, you will be prompted to configure the settings for deploying the website. Since your website is simply a static one, there's not much to do here. Just click Deploy site to continue.
-## Step 6: Publish your website
-Your website is now ready to publish! Netlify will do the rest of the work for you, and it will only take a minute or so to complete the process.
-
-Now you are done! Your new website is published, and you can view it by clicking the green link.
-
-Right now, your URL looks random, but you can edit it by clicking the Site settings button and then the Change site name button.
+## Features
+Bootstrap for Responsiveness: The site is fully responsive, with layouts adapting to different screen sizes.
+Dynamic Interactions: JavaScript enables the site’s dynamic functionality, such as adding items to the cart and form validation.
+User Authentication (Frontend): Basic login and sign-up forms for users to access deals, place orders, and track payments.
+Cart Functionality: Users can add or remove items from the cart and view the total cost.
+Deals Page: Displays current offers and discounts.
+## How to Deploy the Website on Netlify
+Step 1: Add Your New Site from GitHub
+Sign in or sign up for a free account on Netlify.
+In the dashboard, click New site from Git.
+Connect your GitHub account to Netlify.
+Step 2: Connect to Your GitHub Account
+Once redirected, authorize Netlify to access your GitHub repositories.
+Make sure your restaurant website's repository is pushed to GitHub.
+Step 3: Authorize Netlify
+After connecting GitHub, authorize Netlify to deploy your website.
+You'll be able to see a list of your GitHub repositories.
+Step 4: Select Your Repository
+Find and select your restaurant website repository from the list.
+Use the search bar if needed to find it quickly.
+Step 5: Configure Deployment Settings
+Since this is a static website, there are minimal configurations required.
+Simply click Deploy site to begin the deployment process.
+Step 6: Publish Your Website
+Netlify will automatically build and publish your site.
+Once the process completes, click the green link to view your live website!
+Optional: Customize the URL
+Change the default random URL by going to Site settings > Change site name.
