@@ -9,8 +9,10 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="priyastyle.css">
 
 </head>
+
 <body>
     
 <!-- header section starts  -->
@@ -77,6 +79,19 @@
     <!--<img src="loader.gif" alt=""--->
 
 </div>
-
+<script>
+    // Show scroll-top button when scrolling
+    window.onscroll = function() {
+        const scrollBtn = document.getElementById("scroll-top");
+        scrollBtn.style.display = window.scrollY > 500 ? "block" : "none";
+    };
+    
+    // Menu toggle for smaller screens
+    document.getElementById("menu-bar").onclick = function() {
+        document.querySelector(".navbar").classList.toggle("active");
+        this.classList.toggle("fa-times");
+    };
+    </script>
+    
 </body>
 </html>
